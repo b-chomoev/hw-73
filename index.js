@@ -2,6 +2,7 @@ const express = require('express');
 
 const app = express();
 const port = 8000;
+const password = 'password';
 
 app.get('/', (req, res) => {
     return res.send('Home Page');
